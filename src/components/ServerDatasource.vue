@@ -29,7 +29,7 @@ export default {
             </div>
           </div>
           <div class="panel-body">
-            <table class="table table-striped">
+            <table class="table table-striped table-bordered table-hover">
               <thead>
                 <tr>
                   { this.columnItems }
@@ -84,15 +84,15 @@ export default {
       type: Object,
       default () {
         return {
-          limit: 'Limit',
-          search: 'Search',
-          placeholder_search: 'Type to search..',
-          records_not_found: 'No records found',
+          limit: 'Limite',
+          search: 'Procurar',
+          placeholder_search: 'ID imóvel a procurar',
+          records_not_found: 'Não foi encotrado nenhum imóvel',
           pagination: {
-            show: 'Showing',
-            to: 'to',
-            of: 'of',
-            entries: 'entries'
+            show: 'A mostrar',
+            to: 'para',
+            of: 'de',
+            entries: 'imóveis'
           }
         }
       }
