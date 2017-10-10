@@ -1,6 +1,6 @@
 {
   "name": "vue-datasource",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A vue server side component to create dynamic tables",
   "author": "Javier Diaz <coderdiaz@gmail.com>",
   "private": false,
@@ -18,10 +18,10 @@
   "main": "dist/src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderdiaz/vue-datasource.git"
+    "url": "git+https://github.com/rpsimao/vue-datasource.git"
   },
   "bugs": {
-    "url": "https://github.com/coderdiaz/vue-datasource/issues"
+    "url": "https://github.com/rpsimao/vue-datasource/issues"
   },
   "keywords": [
     "vue.js",
@@ -34,7 +34,7 @@
     "tables",
     "vuejs"
   ],
-  "homepage": "https://github.com/coderdiaz/vue-datasource#readme",
+  "homepage": "https://github.com/rpsimao/vue-datasource#readme",
   "dependencies": {
     "axios": "^0.16.1",
     "lodash": "^4.17.4",
